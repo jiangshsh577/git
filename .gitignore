@@ -1,0 +1,59 @@
+# ===== 敏感信息（绝不提交）=====
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# ===== 操作系统垃圾文件 =====
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# macOS
+.DS_Store
+# Linux
+*~
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+*.bak
+.cache/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ===== Node.js =====
+node_modules/
+dist/
+npm-debug.log*
+
+# ===== Java =====
+*.class
+target/
+*.jar
+
+# ===== 编译产物 =====
+build/
+out/
+*.exe
+*.dll
+*.o
+*.a
+
+# ===== 数据库文件 =====
+*.sqlite
+*.db
